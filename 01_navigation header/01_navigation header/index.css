@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+}

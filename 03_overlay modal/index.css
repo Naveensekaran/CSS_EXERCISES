@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+}
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.75);
+    visibility: hidden;
+}
+.modal-content{
+    overflow: hidden;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
