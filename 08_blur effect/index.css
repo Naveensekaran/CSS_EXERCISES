@@ -1,0 +1,8 @@
+button:hover{
+    opacity: 0.2;
+}
+button:hover ~ p{
+    filter: blur(4px);
+}
+
+

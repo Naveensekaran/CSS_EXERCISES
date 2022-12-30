@@ -1,0 +1,47 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    padding: 1rem;
+    width: max-content;
+}
+.menu li {
+    padding: 0.5rem;
+}
+.menu li:hover{
+    transform: translateY(-5px);
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+.red:hover ~ .bgcolor{
+    background-color: red;
+}
+.green:hover ~ .bgcolor{
+    background-color: green;
+}
+.blue:hover ~ .bgcolor{
+    background-color:  blue;
+}
+.bgcolor{
+    z-index: -5;
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0;
+    position: absolute;
+}
+

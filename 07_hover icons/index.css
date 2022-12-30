@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.icons{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+    background-image: linear-gradient(to right,rgb(30, 165, 30),rgb(216, 97, 216));
+}
+p{
+    font-size: 50px;
+}
+.glyphicon{
+    font-size: 50px;
+    left: 30px;
+    margin-left: 20px;
+}
+.glyphicon-upload:hover{
+    transform: translateY(-10px);
+}
+.glyphicon-download:hover{
+    transform: translateY(10px);
+}
